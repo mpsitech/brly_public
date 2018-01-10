@@ -1,0 +1,229 @@
+/**
+  * \file VecBrlyVJob.h
+  * vector VecBrlyVJob (declarations)
+  * \author Alexander Wirthmueller
+  * \date created: 8 Jan 2018
+  * \date modified: 8 Jan 2018
+  */
+
+#ifndef VECBRLYVJOB_H
+#define VECBRLYVJOB_H
+
+#include <sbecore/Xmlio.h>
+
+using namespace Xmlio;
+
+/**
+	* VecBrlyVJob
+	*/
+namespace VecBrlyVJob {
+	const uint CRDBRLYCON = 1;
+	const uint CRDBRLYFIL = 2;
+	const uint CRDBRLYFLT = 3;
+	const uint CRDBRLYLEG = 4;
+	const uint CRDBRLYLOC = 5;
+	const uint CRDBRLYNAV = 6;
+	const uint CRDBRLYOPR = 7;
+	const uint CRDBRLYPRS = 8;
+	const uint CRDBRLYPTY = 9;
+	const uint CRDBRLYREG = 10;
+	const uint CRDBRLYRLY = 11;
+	const uint CRDBRLYSEG = 12;
+	const uint CRDBRLYTTB = 13;
+	const uint CRDBRLYUSG = 14;
+	const uint CRDBRLYUSR = 15;
+	const uint DLGBRLYCONNEW = 16;
+	const uint DLGBRLYLEGNEW = 17;
+	const uint DLGBRLYNAVLOAINI = 18;
+	const uint DLGBRLYTTBIMPFLT = 19;
+	const uint DLGBRLYTTBNEW = 20;
+	const uint DLGBRLYTTBTRLORIG = 21;
+	const uint IEXBRLYFLT = 22;
+	const uint IEXBRLYINI = 23;
+	const uint IEXBRLYTTB = 24;
+	const uint PNLBRLYCON1NRELAY = 25;
+	const uint PNLBRLYCONCONMNEQUIPMENT = 26;
+	const uint PNLBRLYCONDETAIL = 27;
+	const uint PNLBRLYCONHEADBAR = 28;
+	const uint PNLBRLYCONLIST = 29;
+	const uint PNLBRLYCONMAP = 30;
+	const uint PNLBRLYCONMNFLIGHT = 31;
+	const uint PNLBRLYCONMNSEGMENT = 32;
+	const uint PNLBRLYCONPRE = 33;
+	const uint PNLBRLYCONREC = 34;
+	const uint PNLBRLYCONREF1NSEGMENT = 35;
+	const uint PNLBRLYFILDETAIL = 36;
+	const uint PNLBRLYFILHEADBAR = 37;
+	const uint PNLBRLYFILLIST = 38;
+	const uint PNLBRLYFILREC = 39;
+	const uint PNLBRLYFLT1NCONNECTION = 40;
+	const uint PNLBRLYFLTDETAIL = 41;
+	const uint PNLBRLYFLTEQP1NNODE = 42;
+	const uint PNLBRLYFLTEQPMNCONNECTION = 43;
+	const uint PNLBRLYFLTFAFAWAYPOINT = 44;
+	const uint PNLBRLYFLTHEADBAR = 45;
+	const uint PNLBRLYFLTLIST = 46;
+	const uint PNLBRLYFLTMNCONNECTION = 47;
+	const uint PNLBRLYFLTMNLOCATION = 48;
+	const uint PNLBRLYFLTORGMNFLIGHT = 49;
+	const uint PNLBRLYFLTPRE = 50;
+	const uint PNLBRLYFLTREC = 51;
+	const uint PNLBRLYFLTREF1NSEGMENT = 52;
+	const uint PNLBRLYLEG1NFLIGHT = 53;
+	const uint PNLBRLYLEGCOR1NCONNECTION = 54;
+	const uint PNLBRLYLEGDETAIL = 55;
+	const uint PNLBRLYLEGHEADBAR = 56;
+	const uint PNLBRLYLEGLIST = 57;
+	const uint PNLBRLYLEGMAP = 58;
+	const uint PNLBRLYLEGMNLOCATION = 59;
+	const uint PNLBRLYLEGORGMNLEG = 60;
+	const uint PNLBRLYLEGPRE = 61;
+	const uint PNLBRLYLEGREC = 62;
+	const uint PNLBRLYLOCBGN1NLEG = 63;
+	const uint PNLBRLYLOCDETAIL = 64;
+	const uint PNLBRLYLOCEND1NLEG = 65;
+	const uint PNLBRLYLOCEQP1NNODE = 66;
+	const uint PNLBRLYLOCEQPMNCONNECTION = 67;
+	const uint PNLBRLYLOCHEADBAR = 68;
+	const uint PNLBRLYLOCLIST = 69;
+	const uint PNLBRLYLOCMAP = 70;
+	const uint PNLBRLYLOCMNFLIGHT = 71;
+	const uint PNLBRLYLOCMNLEG = 72;
+	const uint PNLBRLYLOCMNSEGMENT = 73;
+	const uint PNLBRLYLOCPROXORGMNLOCATION = 74;
+	const uint PNLBRLYLOCREC = 75;
+	const uint PNLBRLYLOCVISORGMNLOCATION = 76;
+	const uint PNLBRLYNAVADMIN = 77;
+	const uint PNLBRLYNAVBASE = 78;
+	const uint PNLBRLYNAVCONNECT = 79;
+	const uint PNLBRLYNAVHEADBAR = 80;
+	const uint PNLBRLYOPR1NEQUIPMENT = 81;
+	const uint PNLBRLYOPRDETAIL = 82;
+	const uint PNLBRLYOPRHEADBAR = 83;
+	const uint PNLBRLYOPRLIST = 84;
+	const uint PNLBRLYOPRREC = 85;
+	const uint PNLBRLYPRSADETAIL = 86;
+	const uint PNLBRLYPRSDETAIL = 87;
+	const uint PNLBRLYPRSHEADBAR = 88;
+	const uint PNLBRLYPRSLIST = 89;
+	const uint PNLBRLYPRSREC = 90;
+	const uint PNLBRLYPTY1NEQUIPMENT = 91;
+	const uint PNLBRLYPTYDETAIL = 92;
+	const uint PNLBRLYPTYHEADBAR = 93;
+	const uint PNLBRLYPTYLIST = 94;
+	const uint PNLBRLYPTYREC = 95;
+	const uint PNLBRLYREG1NLOCATION = 96;
+	const uint PNLBRLYREGADSTSWITCH = 97;
+	const uint PNLBRLYREGDETAIL = 98;
+	const uint PNLBRLYREGHEADBAR = 99;
+	const uint PNLBRLYREGLIST = 100;
+	const uint PNLBRLYREGREC = 101;
+	const uint PNLBRLYREGSUP1NREGION = 102;
+	const uint PNLBRLYRLY1NNODE = 103;
+	const uint PNLBRLYRLYDETAIL = 104;
+	const uint PNLBRLYRLYHEADBAR = 105;
+	const uint PNLBRLYRLYLIST = 106;
+	const uint PNLBRLYRLYREC = 107;
+	const uint PNLBRLYSEGDETAIL = 108;
+	const uint PNLBRLYSEGHEADBAR = 109;
+	const uint PNLBRLYSEGLIST = 110;
+	const uint PNLBRLYSEGMNCONNECTION = 111;
+	const uint PNLBRLYSEGMNLOCATION = 112;
+	const uint PNLBRLYSEGORGMNSEGMENT = 113;
+	const uint PNLBRLYSEGPRE = 114;
+	const uint PNLBRLYSEGREC = 115;
+	const uint PNLBRLYTTB1NFLIGHT = 116;
+	const uint PNLBRLYTTBDETAIL = 117;
+	const uint PNLBRLYTTBHEADBAR = 118;
+	const uint PNLBRLYTTBLIST = 119;
+	const uint PNLBRLYTTBREC = 120;
+	const uint PNLBRLYTTBREF1NFILE = 121;
+	const uint PNLBRLYUSGAACCESS = 122;
+	const uint PNLBRLYUSGDETAIL = 123;
+	const uint PNLBRLYUSGHEADBAR = 124;
+	const uint PNLBRLYUSGLIST = 125;
+	const uint PNLBRLYUSGMNUSER = 126;
+	const uint PNLBRLYUSGREC = 127;
+	const uint PNLBRLYUSR1NSESSION = 128;
+	const uint PNLBRLYUSRAACCESS = 129;
+	const uint PNLBRLYUSRDETAIL = 130;
+	const uint PNLBRLYUSRHEADBAR = 131;
+	const uint PNLBRLYUSRLIST = 132;
+	const uint PNLBRLYUSRMNUSERGROUP = 133;
+	const uint PNLBRLYUSRREC = 134;
+	const uint QRYBRLYCON1NRELAY = 135;
+	const uint QRYBRLYCONCONMNEQUIPMENT = 136;
+	const uint QRYBRLYCONLIST = 137;
+	const uint QRYBRLYCONMAPFLIGHT = 138;
+	const uint QRYBRLYCONMAPLEG = 139;
+	const uint QRYBRLYCONMAPLOCATION = 140;
+	const uint QRYBRLYCONMAPNODE = 141;
+	const uint QRYBRLYCONMAPRELAY = 142;
+	const uint QRYBRLYCONMNFLIGHT = 143;
+	const uint QRYBRLYCONMNSEGMENT = 144;
+	const uint QRYBRLYCONREF1NSEGMENT = 145;
+	const uint QRYBRLYFILLIST = 146;
+	const uint QRYBRLYFLT1NCONNECTION = 147;
+	const uint QRYBRLYFLTEQP1NNODE = 148;
+	const uint QRYBRLYFLTEQPMNCONNECTION = 149;
+	const uint QRYBRLYFLTFAFAWAYPOINT = 150;
+	const uint QRYBRLYFLTLIST = 151;
+	const uint QRYBRLYFLTMNCONNECTION = 152;
+	const uint QRYBRLYFLTMNLOCATION = 153;
+	const uint QRYBRLYFLTORGMNFLIGHT = 154;
+	const uint QRYBRLYFLTREF1NSEGMENT = 155;
+	const uint QRYBRLYLEG1NFLIGHT = 156;
+	const uint QRYBRLYLEGCOR1NCONNECTION = 157;
+	const uint QRYBRLYLEGLIST = 158;
+	const uint QRYBRLYLEGMAPLEG = 159;
+	const uint QRYBRLYLEGMAPLOCATION = 160;
+	const uint QRYBRLYLEGMNLOCATION = 161;
+	const uint QRYBRLYLEGORGMNLEG = 162;
+	const uint QRYBRLYLOCBGN1NLEG = 163;
+	const uint QRYBRLYLOCEND1NLEG = 164;
+	const uint QRYBRLYLOCEQP1NNODE = 165;
+	const uint QRYBRLYLOCEQPMNCONNECTION = 166;
+	const uint QRYBRLYLOCLIST = 167;
+	const uint QRYBRLYLOCMAPLEG = 168;
+	const uint QRYBRLYLOCMAPPROXLOCATION = 169;
+	const uint QRYBRLYLOCMAPVISLOCATION = 170;
+	const uint QRYBRLYLOCMNFLIGHT = 171;
+	const uint QRYBRLYLOCMNLEG = 172;
+	const uint QRYBRLYLOCMNSEGMENT = 173;
+	const uint QRYBRLYLOCPROXORGMNLOCATION = 174;
+	const uint QRYBRLYLOCVISORGMNLOCATION = 175;
+	const uint QRYBRLYOPR1NEQUIPMENT = 176;
+	const uint QRYBRLYOPRLIST = 177;
+	const uint QRYBRLYPRSADETAIL = 178;
+	const uint QRYBRLYPRSLIST = 179;
+	const uint QRYBRLYPTY1NEQUIPMENT = 180;
+	const uint QRYBRLYPTYLIST = 181;
+	const uint QRYBRLYREG1NLOCATION = 182;
+	const uint QRYBRLYREGADSTSWITCH = 183;
+	const uint QRYBRLYREGLIST = 184;
+	const uint QRYBRLYREGSUP1NREGION = 185;
+	const uint QRYBRLYRLY1NNODE = 186;
+	const uint QRYBRLYRLYLIST = 187;
+	const uint QRYBRLYSEGLIST = 188;
+	const uint QRYBRLYSEGMNCONNECTION = 189;
+	const uint QRYBRLYSEGMNLOCATION = 190;
+	const uint QRYBRLYSEGORGMNSEGMENT = 191;
+	const uint QRYBRLYTTB1NFLIGHT = 192;
+	const uint QRYBRLYTTBLIST = 193;
+	const uint QRYBRLYTTBREF1NFILE = 194;
+	const uint QRYBRLYUSGAACCESS = 195;
+	const uint QRYBRLYUSGLIST = 196;
+	const uint QRYBRLYUSGMNUSER = 197;
+	const uint QRYBRLYUSR1NSESSION = 198;
+	const uint QRYBRLYUSRAACCESS = 199;
+	const uint QRYBRLYUSRLIST = 200;
+	const uint QRYBRLYUSRMNUSERGROUP = 201;
+	const uint ROOTBRLY = 202;
+	const uint SESSBRLY = 203;
+
+	uint getIx(const string& sref);
+	string getSref(const uint ix);
+};
+
+#endif
+

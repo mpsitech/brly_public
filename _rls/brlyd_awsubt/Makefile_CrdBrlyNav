@@ -1,0 +1,38 @@
+# file Makefile
+# make file for CrdBrlyNav card job handler, release brlyd_awsubt
+# author Alexander Wirthmueller
+# date created: 8 Jan 2018
+# modified: 8 Jan 2018
+
+include ../Makefile.inc
+
+CPP = g++
+CPPFLAGS = -std=c++11 -g -Wall -Os -pthread -DBRLYD
+
+STATLIB = ar
+STATLIBFLAGS = rcs
+
+INCPATH = -I$(SRCROOT)/dbsbrly -I$(SRCROOT)/brlyd/VecBrly -I$(SRCROOT)/brlyd/IexBrly -I$(SRCROOT)/brlyd
+INCPATH += -I/usr/include -I/usr/include/libxml2 -I/usr/include/mysql -I/usr/include/postgresql -I/usr/local/include
+
+OBJS = CrdBrlyNav.o DlgBrlyNavLoaini.o PnlBrlyNavHeadbar.o PnlBrlyNavAdmin.o PnlBrlyNavBase.o PnlBrlyNavConnect.o
+
+LIB = libcrdbrlynav
+
+.SUFFIXES: .cpp
+
+.cpp.o :
+	$(CPP) $(CPPFLAGS) $(INCPATH) -o $@ -c $<
+
+all:	$(LIB)
+
+$(LIB):	$(OBJS)
+	$(STATLIB) $(STATLIBFLAGS) $(LIB).a $(OBJS)
+	rm -f *.o
+
+install:
+	mv $(LIB).a $(LIBROOT)/brlyd/
+
+clean:
+	rm -f *.o
+

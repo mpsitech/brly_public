@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>_cont</title>
+		<script>
+			function initDet() {parent.window.initDet();};
+			function handlePupTypChange() {parent.window.handlePupChange(document,"Det","PupTyp","");};
+			function handleTxfBgnKey(evt) {return parent.window.handleTxfKey(document,"Det","TxfBgn","",evt);};
+			function handleTxfBgnChange() {parent.window.handleTxfChange(document,"Det","TxfBgn","");};
+			function handleTxfEndKey(evt) {return parent.window.handleTxfKey(document,"Det","TxfEnd","",evt);};
+			function handleTxfEndChange() {parent.window.handleTxfChange(document,"Det","TxfEnd","");};
+			function handleButCreClick() {parent.window.handleButClick("Det","ButCre");};
+			<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail3_2.css" rel="styleSheet" type="text/css"/>
+		<!-- IP custStyle - INSERT -->
+	</head>
+	<body marginwidth="0" marginheight="0" onload="initDet()">
+		<table cellspacing="0" border="0" cellpadding="0"><form id="form" action="" method="POST" onsubmit="return true" enctype="multipart/form-data">
+			<colgroup>
+				<col width="5"/>
+				<col width="215"/>
+				<col width="5"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="68"/>
+				<col width="2"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="114"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trTyp" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptTyp" class="cpt">CptTyp</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<select id="PupTyp" class="pup" size="1" onchange="handlePupTypChange()"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trBgn" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptBgn" class="cpt">CptBgn</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfBgn" class="txf" type="text" value="TxfBgn" onchange="handleTxfBgnChange()" onkeypress="return handleTxfBgnKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trEnd" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptEnd" class="cpt">CptEnd</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfEnd" class="txf" type="text" value="TxfEnd" onchange="handleTxfEndChange()" onkeypress="return handleTxfEndKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="tr11" class="show"><td colspan="11" height="3"></td></tr>
+				<tr id="tr12" class="show">
+					<td height="1"></td>
+					<td colspan="10" bgcolor="#7f7f7f"></td>
+				</tr>
+				<tr id="tr13" class="show"><td colspan="11" height="3"></td></tr>
+				<tr id="trCre" class="show">
+					<td height="25"></td>
+					<td colspan="2"></td>
+					<td colspan="8" align="left">
+						<span id="ButCre" class="but" onclick="handleButCreClick()">ButCre</span>
+					</td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+

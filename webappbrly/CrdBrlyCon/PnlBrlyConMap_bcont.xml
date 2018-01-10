@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>Map_bcont</title>
+		<script>
+			function handleSldHJpleftMov() {parent.parent.window.handleSldJpleftMov(document,"SldH");};
+			function handleSldHJpleftMou() {parent.parent.window.handleSldJpleftMou(document,"SldH");};
+			function handleSldHJpleftClick(evt) {parent.parent.window.handleSldJpleftClick(document,"SldH",true,false,false,evt);};
+			function handleSldHJprightMov() {parent.parent.window.handleSldJprightMov(document,"SldH");};
+			function handleSldHJprightMou() {parent.parent.window.handleSldJprightMou(document,"SldH");};
+			function handleSldHJprightClick(evt) {parent.parent.window.handleSldJprightClick(document,"SldH",true,false,false,evt);};
+			function handleSldHMov() {parent.parent.window.handleSldMov(document,"SldH");};
+			function handleSldHMou() {parent.parent.window.handleSldMou(document,"SldH");};
+			function handleSldHMdn() {parent.parent.window.handleSldMdn(document,"SldH");};
+			function handleSldHMove(evt) {parent.parent.window.handleSldMove(document,"SldH",true,false,false,evt);};
+			function handleSldHMup() {parent.parent.window.handleSldMup(document,"SldH",true);};
+			function handleSldHValKey(evt) {return parent.parent.window.handleSldValKey(document,"SldH",true,false,false,evt);};
+			function handleSldHValChange() {parent.parent.window.handleSldValChange(document,"SldH",true,false,false);};
+			function handleSldVJpleftMov() {parent.parent.window.handleSldJpleftMov(document,"SldV");};
+			function handleSldVJpleftMou() {parent.parent.window.handleSldJpleftMou(document,"SldV");};
+			function handleSldVJpleftClick(evt) {parent.parent.window.handleSldJpleftClick(document,"SldV",true,false,false,evt);};
+			function handleSldVJprightMov() {parent.parent.window.handleSldJprightMov(document,"SldV");};
+			function handleSldVJprightMou() {parent.parent.window.handleSldJprightMou(document,"SldV");};
+			function handleSldVJprightClick(evt) {parent.parent.window.handleSldJprightClick(document,"SldV",true,false,false,evt);};
+			function handleSldVMov() {parent.parent.window.handleSldMov(document,"SldV");};
+			function handleSldVMou() {parent.parent.window.handleSldMou(document,"SldV");};
+			function handleSldVMdn() {parent.parent.window.handleSldMdn(document,"SldV");};
+			function handleSldVMove(evt) {parent.parent.window.handleSldMove(document,"SldV",true,false,false,evt);};
+			function handleSldVMup() {parent.parent.window.handleSldMup(document,"SldV",true);};
+			function handleSldVValKey(evt) {return parent.parent.window.handleSldValKey(document,"SldV",true,false,false,evt);};
+			function handleSldVValChange() {parent.parent.window.handleSldValChange(document,"SldV",true,false,false);};
+			function handleButHomeClick() {parent.parent.window.handleButClick("ButHome");};
+			function handleSldSclJpleftMov() {parent.parent.window.handleSldJpleftMov(document,"SldScl");};
+			function handleSldSclJpleftMou() {parent.parent.window.handleSldJpleftMou(document,"SldScl");};
+			function handleSldSclJpleftClick(evt) {parent.parent.window.handleSldJpleftClick(document,"SldScl",true,false,true,evt);};
+			function handleSldSclJprightMov() {parent.parent.window.handleSldJprightMov(document,"SldScl");};
+			function handleSldSclJprightMou() {parent.parent.window.handleSldJprightMou(document,"SldScl");};
+			function handleSldSclJprightClick(evt) {parent.parent.window.handleSldJprightClick(document,"SldScl",true,false,true,evt);};
+			function handleSldSclMov() {parent.parent.window.handleSldMov(document,"SldScl");};
+			function handleSldSclMou() {parent.parent.window.handleSldMou(document,"SldScl");};
+			function handleSldSclMdn() {parent.parent.window.handleSldMdn(document,"SldScl");};
+			function handleSldSclMove(evt) {parent.parent.window.handleSldMove(document,"SldScl",true,false,true,evt);};
+			function handleSldSclMup() {parent.parent.window.handleSldMup(document,"SldScl",true);};
+			function handleSldSclValKey(evt) {return parent.parent.window.handleSldValKey(document,"SldScl",true,false,true,evt);};
+			function handleSldSclValChange() {parent.parent.window.handleSldValChange(document,"SldScl",true,false,true);};
+			function handleTxfSclKey(evt) {return parent.parent.window.handleTxfSclKey(evt);};
+			function handleTxfSclChange() {parent.parent.window.handleTxfSclChange();};
+			function handleButRefreshClick() {parent.parent.window.handleButClick("ButRefresh");};
+			<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail.css" rel="styleSheet" type="text/css"/>
+		<!-- IP custStyle - INSERT -->
+	</head>
+	<body marginwidth="0" marginheight="0">
+		<table cellspacing="0" border="0" cellpadding="0"><form action="">
+			<colgroup>
+				<col width="5"/>
+				<col width="155"/>
+				<col width="5"/>
+				<col width="78"/>
+				<col width="2"/>
+				<col width="38"/>
+				<col width="2"/>
+				<col width="78"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="74"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trHome" class="show">
+					<td height="25"></td>
+					<td colspan="2"></td>
+					<td colspan="8" align="left">
+						<span id="ButHome" class="but" onclick="handleButHomeClick()">ButHome</span>
+					</td>
+				</tr>
+				<tr id="trScl" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptScl" class="cpt">CptScl</span>
+					</td>
+					<td></td>
+					<td id="tdSldScl" colspan="5">
+						<svg class="svg" width="190" height="25" version="1.1" xmlns="http://www.w3.org/2000/svg">
+							<line class="sldlinact" x1="0" y1="12.5" x2="5" y2="12.5"/>
+							<line class="sldlinact" x1="185" y1="12.5" x2="190" y2="12.5"/>
+							<g id="SldSclJpleft" class="sld" onmouseover="handleSldSclJpleftMov()" onmouseout="handleSldSclJpleftMou()" onclick="handleSldSclJpleftClick(event)">
+								<rect id="SldSclJpleftr" class="sldr" x="5" y="2" width="90" height="18"/>
+								<line id="SldSclJpleftl" class="sldl" x1="5" y1="12.5" x2="92.5" y2="12.5"/>
+							</g>
+							<g id="SldSclJpright" class="sld" onmouseover="handleSldSclJprightMov()" onmouseout="handleSldSclJprightMou()" onclick="handleSldSclJprightClick(event)">
+								<rect id="SldSclJprightr" class="sldr" x="95" y="2" width="90" height="18"/>
+								<line id="SldSclJprightl" class="sldl" x1="97.5" y1="12.5" x2="185" y2="12.5"/>
+							</g>
+							<g id="SldScl" class="sld" transform="translate(95 0)" onmouseover="handleSldSclMov()" onmouseout="handleSldSclMou()" onmousedown="handleSldSclMdn()">
+								<rect id="SldSclR" class="sldr" x="-3" y="2" width="6" height="21"/>
+								<g id="SldSclBar" class="sldl">
+									<line x1="-2" y1="2" x2="-2" y2="23"/>
+									<line x1="2" y1="2" x2="2" y2="23"/>
+								</g>
+							</g>
+						</svg>
+					</td>
+					<td></td>
+					<td colspan="2" align="left">
+						<input id="SldSclVal" class="txfxs" type="text" value="SldSclVal" onchange="handleSldSclValChange()" onkeypress="return handleSldSclValKey(event)"/>
+					</td>
+				</tr>
+				<tr id="trRefresh" class="show">
+					<td height="25"></td>
+					<td colspan="2"></td>
+					<td colspan="8" align="left">
+						<span id="ButRefresh" class="but" onclick="handleButRefreshClick()">ButRefresh</span>
+					</td>
+				</tr>
+				<tr id="tr" class="show">
+					<td height="25"></td>
+					<td colspan="2"></td>
+					<td colspan="5" align="left">
+						<a id="Dld" class="but" href="/download/0" target="_blank">Dld</a>
+					</td>
+					<td colspan="3"></td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+

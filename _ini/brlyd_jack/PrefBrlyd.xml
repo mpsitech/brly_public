@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PrefBrlyd>
+	<StgBrlyd>
+		<Si sref="jobprcn">1</Si>
+		<Si sref="opengsrvport"></Si>
+		<Si sref="appsrvport"></Si>
+		<Si sref="https">false</Si>
+		<Si sref="histlength">20</Si>
+	</StgBrlyd>
+	<StgBrlyDatabase>
+		<Si sref="srefIxDbsVDbstype"/>
+		<Si sref="dbspath"></Si>
+		<Si sref="dbsname"></Si>
+		<Si sref="username">mpsitech</Si>
+		<Si sref="password">f9w8feeh</Si>
+		<Si sref="ip"></Si>
+		<Si sref="port"></Si>
+	</StgBrlyDatabase>
+	<StgBrlyFlightaware>
+		<Si sref="ip">flightxml.flightaware.com/json/FlightXML2</Si>
+		<Si sref="key">YXdpcnRobToyMjY5NzU4ZmI0NGIxODQxNjBlZTk2NWU4ZTAyZjk3OTZkZTJmMzE0</Si>
+	</StgBrlyFlightaware>
+	<StgBrlyGeometry>
+		<Si sref="acraltitude">10500</Si>
+		<Si sref="corrwidth1">100000</Si>
+		<Si sref="corrwidth2">500000</Si>
+		<Si sref="earthradius">6371000</Si>
+		<Si sref="hrznaltitude">2000</Si>
+	</StgBrlyGeometry>
+	<StgBrlyMonitor>
+		<Si sref="username"></Si>
+		<Si sref="password"></Si>
+		<Si sref="ip"></Si>
+		<Si sref="port"></Si>
+		<Si sref="srefIxDbsVDbstype"/>
+		<Si sref="dbspath"></Si>
+		<Si sref="dbsname"></Si>
+		<Si sref="dbsusername"></Si>
+		<Si sref="dbspassword"></Si>
+	</StgBrlyMonitor>
+	<StgBrlyPath>
+		<Si sref="acvpath"></Si>
+		<Si sref="keypath"></Si>
+		<Si sref="monpath"></Si>
+		<Si sref="tmppath"></Si>
+		<Si sref="webpath"></Si>
+		<Si sref="helpurl"></Si>
+	</StgBrlyPath>
+</PrefBrlyd>

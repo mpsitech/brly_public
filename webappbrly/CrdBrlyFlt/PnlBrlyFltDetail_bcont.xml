@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>Detail_bcont</title>
+		<script>
+			function handleButTtbViewClick() {parent.parent.window.handleButCrdopenClick("ButTtbView");};
+			function handleTxfStaKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfSta","",evt);};
+			function handleTxfStaChange() {parent.parent.window.handleTxfChange(document,"TxfSta","");};
+			function handleTxfStoKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfSto","",evt);};
+			function handleTxfStoChange() {parent.parent.window.handleTxfChange(document,"TxfSto","");};
+			function handleTxfXsaKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfXsa","",evt);};
+			function handleTxfXsaChange() {parent.parent.window.handleTxfChange(document,"TxfXsa","");};
+			function handleTxfXsoKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfXso","",evt);};
+			function handleTxfXsoChange() {parent.parent.window.handleTxfChange(document,"TxfXso","");};
+			function handleChkCdnChange() {parent.parent.window.handleChkChange(document,"ChkCdn");};
+			function handleChkSdnChange() {parent.parent.window.handleChkChange(document,"ChkSdn");};
+			function handleButFafNewClick() {parent.parent.window.handleButClick("ButFafNew");};
+			function handleButFafDeleteClick() {parent.parent.window.handleButClick("ButFafDelete");};
+			function handleTxfFafFidKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafFid","",evt);};
+			function handleTxfFafFidChange() {parent.parent.window.handleTxfChange(document,"TxfFafFid","");};
+			function handleTxfFafIdtKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafIdt","xs",evt);};
+			function handleTxfFafIdtChange() {parent.parent.window.handleTxfChange(document,"TxfFafIdt","xs");};
+			function handleTxfFafActKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafAct","xs",evt);};
+			function handleTxfFafActChange() {parent.parent.window.handleTxfChange(document,"TxfFafAct","xs");};
+			function handleTxfFafFetKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafFet","xs",evt);};
+			function handleTxfFafFetChange() {parent.parent.window.handleTxfChange(document,"TxfFafFet","xs");};
+			function handleTxfFafFtiKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafFti","",evt);};
+			function handleTxfFafFtiChange() {parent.parent.window.handleTxfChange(document,"TxfFafFti","");};
+			function handleTxfFafFdtKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafFdt","",evt);};
+			function handleTxfFafFdtChange() {parent.parent.window.handleTxfChange(document,"TxfFafFdt","");};
+			function handleTxfFafFskKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafFsk","s",evt);};
+			function handleTxfFafFskChange() {parent.parent.window.handleTxfChange(document,"TxfFafFsk","s");};
+			function handleTxfFafFsmKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafFsm","s",evt);};
+			function handleTxfFafFsmChange() {parent.parent.window.handleTxfChange(document,"TxfFafFsm","s");};
+			function handleTxfFafFatKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafFat","s",evt);};
+			function handleTxfFafFatChange() {parent.parent.window.handleTxfChange(document,"TxfFafFat","s");};
+			function handleTxfFafRteKey(evt) {return parent.parent.window.handleTxftKey(document,"TxfFafRte",evt);};
+			function handleTxfFafRteChange() {parent.parent.window.handleTxftChange(document,"TxfFafRte");};
+			function handleTxfFafAdtKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafAdt","",evt);};
+			function handleTxfFafAdtChange() {parent.parent.window.handleTxfChange(document,"TxfFafAdt","");};
+			function handleTxfFafEatKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafEat","",evt);};
+			function handleTxfFafEatChange() {parent.parent.window.handleTxfChange(document,"TxfFafEat","");};
+			function handleTxfFafAatKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafAat","",evt);};
+			function handleTxfFafAatChange() {parent.parent.window.handleTxfChange(document,"TxfFafAat","");};
+			function handleTxfFafDvtKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafDvt","xs",evt);};
+			function handleTxfFafDvtChange() {parent.parent.window.handleTxfChange(document,"TxfFafDvt","xs");};
+			function handleTxfFafOrgKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafOrg","xs",evt);};
+			function handleTxfFafOrgChange() {parent.parent.window.handleTxfChange(document,"TxfFafOrg","xs");};
+			function handleTxfFafDstKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafDst","xs",evt);};
+			function handleTxfFafDstChange() {parent.parent.window.handleTxfChange(document,"TxfFafDst","xs");};
+			function handleTxfFafOnmKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafOnm","",evt);};
+			function handleTxfFafOnmChange() {parent.parent.window.handleTxfChange(document,"TxfFafOnm","");};
+			function handleTxfFafOctKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafOct","",evt);};
+			function handleTxfFafOctChange() {parent.parent.window.handleTxfChange(document,"TxfFafOct","");};
+			function handleTxfFafDnmKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafDnm","",evt);};
+			function handleTxfFafDnmChange() {parent.parent.window.handleTxfChange(document,"TxfFafDnm","");};
+			function handleTxfFafDctKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfFafDct","",evt);};
+			function handleTxfFafDctChange() {parent.parent.window.handleTxfChange(document,"TxfFafDct","");};
+			function handleButEqpNewClick() {parent.parent.window.handleButClick("ButEqpNew");};
+			function handleButEqpDeleteClick() {parent.parent.window.handleButClick("ButEqpDelete");};
+			function handleButEqpOprViewClick() {parent.parent.window.handleButCrdopenClick("ButEqpOprView");};
+			function handleButEqpPtyViewClick() {parent.parent.window.handleButCrdopenClick("ButEqpPtyView");};
+			function handlePupEqpEtyChange() {parent.parent.window.handlePupChange(document,"PupEqpEty","");};
+			function handleButEqpEtyToggleClick() {parent.parent.window.handleButToggleClick("PupEqpEty");};
+			function handleTxfEqpEtyKey(evt) {return parent.parent.window.handleTxfKey(document,"TxfEqpEty","",evt);};
+			function handleTxfEqpEtyChange() {parent.parent.window.handleTxfChange(document,"TxfEqpEty","");};
+			function handleButEqpEtyEditClick() {parent.parent.window.handleButDlgopenClick("ButEqpEtyEdit");};
+			function handleChkEqpFibChange() {parent.parent.window.handleChkChange(document,"ChkEqpFib");};
+			<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail.css" rel="styleSheet" type="text/css"/>
+		<!-- IP custStyle - INSERT -->
+	</head>
+	<body marginwidth="0" marginheight="0">
+		<table cellspacing="0" border="0" cellpadding="0"><form action="">
+			<colgroup>
+				<col width="5"/>
+				<col width="155"/>
+				<col width="5"/>
+				<col width="78"/>
+				<col width="2"/>
+				<col width="38"/>
+				<col width="2"/>
+				<col width="78"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="74"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trSrf" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptSrf" class="cpt">CptSrf</span>
+					</td>
+					<td></td>
+					<td colspan="3" align="left">
+						<input id="TxtSrf" class="txfsnoed" type="text" readonly="readonly" value="TxtSrf"/>
+					</td>
+					<td></td>
+					<td colspan="4"></td>
+				</tr>
+				<tr id="trA1" class="show"><td colspan="11" height="3"></td></tr>
+				<tr id="trA2" class="show">
+					<td height="1"></td>
+					<td colspan="10" bgcolor="#7f7f7f"></td>
+				</tr>
+				<tr id="trA3" class="show"><td colspan="11" height="3"></td></tr>
+				<tr id="trTtb" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptTtb" class="cpt">CptTtb</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxtTtb" class="txfnoed" type="text" readonly="readonly" value="TxtTtb"/>
+					</td>
+					<td></td>
+					<td id="rdynTtb" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trLeg" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptLeg" class="cpt">CptLeg</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxtLeg" class="txfnoed" type="text" readonly="readonly" value="TxtLeg"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trSta" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptSta" class="cpt">CptSta</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfSta" class="txf" type="text" value="TxfSta" onchange="handleTxfStaChange()" onkeypress="return handleTxfStaKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trSto" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptSto" class="cpt">CptSto</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfSto" class="txf" type="text" value="TxfSto" onchange="handleTxfStoChange()" onkeypress="return handleTxfStoKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trXsa" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptXsa" class="cpt">CptXsa</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfXsa" class="txf" type="text" value="TxfXsa" onchange="handleTxfXsaChange()" onkeypress="return handleTxfXsaKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trXso" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptXso" class="cpt">CptXso</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfXso" class="txf" type="text" value="TxfXso" onchange="handleTxfXsoChange()" onkeypress="return handleTxfXsoKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trCdn" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptCdn" class="cpt">CptCdn</span>
+					</td>
+					<td></td>
+					<td align="left">
+						<input id="ChkCdn" class="chk" name="ChkCdn" type="checkbox" checked="checked" onchange="handleChkCdnChange()"/>
+					</td>
+					<td colspan="7"></td>
+				</tr>
+				<tr id="trSdn" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptSdn" class="cpt">CptSdn</span>
+					</td>
+					<td></td>
+					<td align="left">
+						<input id="ChkSdn" class="chk" name="ChkSdn" type="checkbox" checked="checked" onchange="handleChkSdnChange()"/>
+					</td>
+					<td colspan="7"></td>
+				</tr>
+				<tr id="trFaf1" class="show"><td colspan="11" height="3"></td></tr>
+				<tr id="trFaf2" class="show">
+					<td height="1"></td>
+					<td colspan="10" bgcolor="#7f7f7f"></td>
+				</tr>
+				<tr id="trFaf3" class="show"><td colspan="11" height="3"></td></tr>
+				<tr id="trFaf" class="show">
+					<td height="25"></td>
+					<td colspan="2"></td>
+					<td id="dynFaf" colspan="8" align="left">
+					</td>
+				</tr>
+				<tr id="trFafFid" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafFid" class="cpt">CptFafFid</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafFid" class="txf" type="text" value="TxfFafFid" onchange="handleTxfFafFidChange()" onkeypress="return handleTxfFafFidKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafIdt" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafIdt" class="cpt">CptFafIdt</span>
+					</td>
+					<td></td>
+					<td colspan="1" align="left">
+						<input id="TxfFafIdt" class="txfxs" type="text" value="TxfFafIdt" onchange="handleTxfFafIdtChange()" onkeypress="return handleTxfFafIdtKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="6"></td>
+				</tr>
+				<tr id="trFafAct" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafAct" class="cpt">CptFafAct</span>
+					</td>
+					<td></td>
+					<td colspan="1" align="left">
+						<input id="TxfFafAct" class="txfxs" type="text" value="TxfFafAct" onchange="handleTxfFafActChange()" onkeypress="return handleTxfFafActKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="6"></td>
+				</tr>
+				<tr id="trFafFet" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafFet" class="cpt">CptFafFet</span>
+					</td>
+					<td></td>
+					<td colspan="1" align="left">
+						<input id="TxfFafFet" class="txfxs" type="text" value="TxfFafFet" onchange="handleTxfFafFetChange()" onkeypress="return handleTxfFafFetKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="6"></td>
+				</tr>
+				<tr id="trFafFti" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafFti" class="cpt">CptFafFti</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafFti" class="txf" type="text" value="TxfFafFti" onchange="handleTxfFafFtiChange()" onkeypress="return handleTxfFafFtiKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafFdt" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafFdt" class="cpt">CptFafFdt</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafFdt" class="txf" type="text" value="TxfFafFdt" onchange="handleTxfFafFdtChange()" onkeypress="return handleTxfFafFdtKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafFsk" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafFsk" class="cpt">CptFafFsk</span>
+					</td>
+					<td></td>
+					<td colspan="3" align="left">
+						<input id="TxfFafFsk" class="txfs" type="text" value="TxfFafFsk" onchange="handleTxfFafFskChange()" onkeypress="return handleTxfFafFskKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="4"></td>
+				</tr>
+				<tr id="trFafFsm" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafFsm" class="cpt">CptFafFsm</span>
+					</td>
+					<td></td>
+					<td colspan="3" align="left">
+						<input id="TxfFafFsm" class="txfs" type="text" value="TxfFafFsm" onchange="handleTxfFafFsmChange()" onkeypress="return handleTxfFafFsmKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="4"></td>
+				</tr>
+				<tr id="trFafFat" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafFat" class="cpt">CptFafFat</span>
+					</td>
+					<td></td>
+					<td colspan="3" align="left">
+						<input id="TxfFafFat" class="txfs" type="text" value="TxfFafFat" onchange="handleTxfFafFatChange()" onkeypress="return handleTxfFafFatKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="4"></td>
+				</tr>
+				<tr id="trFafRte" class="show">
+					<td height="75"></td>
+					<td align="right" valign="top">
+						<span id="CptFafRte" class="cpt">CptFafRte</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<textarea id="TxfFafRte" class="txf" rows="4" cols="20" type="text" value="TxfFafRte" onchange="handleTxfFafRteChange()" onkeypress="return handleTxfFafRteKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafAdt" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafAdt" class="cpt">CptFafAdt</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafAdt" class="txf" type="text" value="TxfFafAdt" onchange="handleTxfFafAdtChange()" onkeypress="return handleTxfFafAdtKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafEat" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafEat" class="cpt">CptFafEat</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafEat" class="txf" type="text" value="TxfFafEat" onchange="handleTxfFafEatChange()" onkeypress="return handleTxfFafEatKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafAat" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafAat" class="cpt">CptFafAat</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafAat" class="txf" type="text" value="TxfFafAat" onchange="handleTxfFafAatChange()" onkeypress="return handleTxfFafAatKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafDvt" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafDvt" class="cpt">CptFafDvt</span>
+					</td>
+					<td></td>
+					<td colspan="1" align="left">
+						<input id="TxfFafDvt" class="txfxs" type="text" value="TxfFafDvt" onchange="handleTxfFafDvtChange()" onkeypress="return handleTxfFafDvtKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="6"></td>
+				</tr>
+				<tr id="trFafOrg" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafOrg" class="cpt">CptFafOrg</span>
+					</td>
+					<td></td>
+					<td colspan="1" align="left">
+						<input id="TxfFafOrg" class="txfxs" type="text" value="TxfFafOrg" onchange="handleTxfFafOrgChange()" onkeypress="return handleTxfFafOrgKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="6"></td>
+				</tr>
+				<tr id="trFafDst" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafDst" class="cpt">CptFafDst</span>
+					</td>
+					<td></td>
+					<td colspan="1" align="left">
+						<input id="TxfFafDst" class="txfxs" type="text" value="TxfFafDst" onchange="handleTxfFafDstChange()" onkeypress="return handleTxfFafDstKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="6"></td>
+				</tr>
+				<tr id="trFafOnm" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafOnm" class="cpt">CptFafOnm</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafOnm" class="txf" type="text" value="TxfFafOnm" onchange="handleTxfFafOnmChange()" onkeypress="return handleTxfFafOnmKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafOct" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafOct" class="cpt">CptFafOct</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafOct" class="txf" type="text" value="TxfFafOct" onchange="handleTxfFafOctChange()" onkeypress="return handleTxfFafOctKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafDnm" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafDnm" class="cpt">CptFafDnm</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafDnm" class="txf" type="text" value="TxfFafDnm" onchange="handleTxfFafDnmChange()" onkeypress="return handleTxfFafDnmKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trFafDct" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptFafDct" class="cpt">CptFafDct</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxfFafDct" class="txf" type="text" value="TxfFafDct" onchange="handleTxfFafDctChange()" onkeypress="return handleTxfFafDctKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trEqp1" class="show"><td colspan="11" height="3"></td></tr>
+				<tr id="trEqp2" class="show">
+					<td height="1"></td>
+					<td colspan="10" bgcolor="#7f7f7f"></td>
+				</tr>
+				<tr id="trEqp3" class="show"><td colspan="11" height="3"></td></tr>
+				<tr id="trEqp" class="show">
+					<td height="25"></td>
+					<td colspan="2"></td>
+					<td id="dynEqp" colspan="8" align="left">
+					</td>
+				</tr>
+				<tr id="trEqpOpr" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptEqpOpr" class="cpt">CptEqpOpr</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxtEqpOpr" class="txfnoed" type="text" readonly="readonly" value="TxtEqpOpr"/>
+					</td>
+					<td></td>
+					<td id="rdynEqpOpr" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trEqpPty" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptEqpPty" class="cpt">CptEqpPty</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="TxtEqpPty" class="txfnoed" type="text" readonly="readonly" value="TxtEqpPty"/>
+					</td>
+					<td></td>
+					<td id="rdynEqpPty" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trEqpEty" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptEqpEty" class="cpt">CptEqpEty</span>
+						&#160;<img id="ButEqpEtyToggle" class="but" src="../icon/toggle.png" width="16" height="16" valign="bottom" alt="ButEqpEtyToggle" onmouseover="src='../icon/toggle_hlt.png'" onmouseout="src='../icon/toggle.png'" onclick="handleButEqpEtyToggleClick()"/>
+					</td>
+					<td></td>
+					<td id="dynEqpEty" colspan="5" align="left">
+					</td>
+					<td></td>
+					<td id="rdynEqpEty" colspan="2" align="left">
+					</td>
+				</tr>
+				<tr id="trEqpFib" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="CptEqpFib" class="cpt">CptEqpFib</span>
+					</td>
+					<td></td>
+					<td align="left">
+						<input id="ChkEqpFib" class="chk" name="ChkEqpFib" type="checkbox" checked="checked" onchange="handleChkEqpFibChange()"/>
+					</td>
+					<td colspan="7"></td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+

@@ -1,0 +1,38 @@
+# file Makefile
+# make file for CrdBrlyCon card job handler, release brlyd_jack
+# author Alexander Wirthmueller
+# date created: 8 Jan 2018
+# modified: 8 Jan 2018
+
+include ../Makefile.inc
+
+CPP = g++
+CPPFLAGS = -std=c++11 -g -Wall -Os -pthread -DBRLYD
+
+STATLIB = ar
+STATLIBFLAGS = rcs
+
+INCPATH = -I$(SRCROOT)/dbsbrly -I$(SRCROOT)/brlyd/VecBrly -I$(SRCROOT)/brlyd/IexBrly -I$(SRCROOT)/brlyd
+INCPATH += -I/usr/include -I/usr/include/libxml2 -I/usr/include/mysql -I/usr/include/postgresql -I/usr/local/include
+
+OBJS = CrdBrlyCon.o DlgBrlyConNew.o PnlBrlyConRec.o PnlBrlyConPre.o PnlBrlyConDetail.o PnlBrlyConMap.o QryBrlyConMapFlight.o QryBrlyConMapLeg.o QryBrlyConMapLocation.o QryBrlyConMapNode.o QryBrlyConMapRelay.o PnlBrlyCon1NRelay.o QryBrlyCon1NRelay.o PnlBrlyConRef1NSegment.o QryBrlyConRef1NSegment.o PnlBrlyConMNSegment.o QryBrlyConMNSegment.o PnlBrlyConMNFlight.o QryBrlyConMNFlight.o PnlBrlyConConMNEquipment.o QryBrlyConConMNEquipment.o PnlBrlyConHeadbar.o PnlBrlyConList.o QryBrlyConList.o
+
+LIB = libcrdbrlycon
+
+.SUFFIXES: .cpp
+
+.cpp.o :
+	$(CPP) $(CPPFLAGS) $(INCPATH) -o $@ -c $<
+
+all:	$(LIB)
+
+$(LIB):	$(OBJS)
+	$(STATLIB) $(STATLIBFLAGS) $(LIB).a $(OBJS)
+	rm -f *.o
+
+install:
+	mv $(LIB).a $(LIBROOT)/brlyd/
+
+clean:
+	rm -f *.o
+

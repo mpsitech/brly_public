@@ -1,0 +1,180 @@
+- ImeIAVKeylistKey.srefKlsIxBrlyVKeylist	sref	Avail	Implied
+- KlstBrlyKAlliance	star		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	StarAlliance	
+- KlstBrlyKAlliance	ow		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	oneworld	
+- KlstBrlyKAlliance	st		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	SkyTeam	
+- KlstBrlyKAMPersonDetailType	eml		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	e-mail	
+	- dech	E-Mail	
+- KlstBrlyKAMPersonDetailType	fax		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	fax	
+	- dech	Telefax	
+- KlstBrlyKAMPersonDetailType	mbl		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	mobile	
+	- dech	Handy	
+- KlstBrlyKAMPersonDetailType	tel		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	phone	
+	- dech	Telefon	
+- KlstBrlyKEqptype	bll		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	balloon (low)	
+	- dech	Ballon (niedrig)	
+- KlstBrlyKEqptype	blh		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	balloon (high)	
+	- dech	Ballon (hoch)	
+- KlstBrlyKEqptype	gnd		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	ground station	
+	- dech	Bodenstation	
+- KlstBrlyKEqptype	wby		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	widebody plane	
+	- dech	Grossraumflugzeug	
+- KlstBrlyKEqptype	nby		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	narrowbody plane	
+	- dech	Standardrumpfflugzeug	
+- KlstBrlyKEqptype	rgn		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	regional plane	
+	- dech	Regionalflugzeug	
+- KlstBrlyKMFileContent	etopo		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	ETOPO data	
+	- dech	ETOPO Daten	
+- KlstBrlyKMFileContent	rawtext		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	raw text	
+	- dech	unbearbeitete Textdaten	
+- KlstBrlyKMFileMimetype	bmp		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	image/bmp	
+- KlstBrlyKMFileMimetype	cpp		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/x-c	
+- KlstBrlyKMFileMimetype	css		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/css	
+- KlstBrlyKMFileMimetype	csv		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/comma-separated-values	
+- KlstBrlyKMFileMimetype	doc		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/msword	
+- KlstBrlyKMFileMimetype	docx		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/vnd.openxmlformats-officedocument.wordprocessingml.document	
+- KlstBrlyKMFileMimetype	eps		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/postscript	
+- KlstBrlyKMFileMimetype	gif		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	image/gif	
+- KlstBrlyKMFileMimetype	h		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/x-h	
+- KlstBrlyKMFileMimetype	hdf		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/x-hdf	
+- KlstBrlyKMFileMimetype	html		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/html	
+- KlstBrlyKMFileMimetype	jpg		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	image/jpeg	
+- KlstBrlyKMFileMimetype	js		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/javascript	
+- KlstBrlyKMFileMimetype	make		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/x-makefile	
+- KlstBrlyKMFileMimetype	nc		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/x-netcdf	
+- KlstBrlyKMFileMimetype	pdf		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/pdf	
+- KlstBrlyKMFileMimetype	png		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	image/png	
+- KlstBrlyKMFileMimetype	ppt		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/mspowerpoint	
+- KlstBrlyKMFileMimetype	pptx		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/vnd.openxmlformats-officedocument.presentationml.presentation	
+- KlstBrlyKMFileMimetype	sh		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/x-sh	
+- KlstBrlyKMFileMimetype	sql		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/x-sql	
+- KlstBrlyKMFileMimetype	svg		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	image/svg+xml	
+- KlstBrlyKMFileMimetype	tex		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/x-tex	
+- KlstBrlyKMFileMimetype	tgz		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/x-gzip	
+- KlstBrlyKMFileMimetype	tif		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	image/tiff	
+- KlstBrlyKMFileMimetype	txt		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/plain	
+- KlstBrlyKMFileMimetype	xls		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/msexcel	
+- KlstBrlyKMFileMimetype	xlsx		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/vnd.openxmlformats-officedocument.spreadsheetml.sheet	
+- KlstBrlyKMFileMimetype	xml		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	text/xml	
+- KlstBrlyKMFileMimetype	zip		
+	- ImeIJAVKeylistKey.srefX1BrlyVLocale	Title	Comment
+	- enus	application/zip	
+- ImeIMUsergroup.sref	Comment
+- brlyusers
+	- ImeIAMUsergroupAccess.srefX1IxBrlyVCard	srefsIxBrlyWUiaccess
+	- CrdBrlyUsg	edit;exec;view
+	- CrdBrlyUsr	edit;exec;view
+	- CrdBrlyPrs	edit;exec;view
+	- CrdBrlyFil	edit;exec;view
+	- CrdBrlyOpr	edit;exec;view
+	- CrdBrlyPty	edit;exec;view
+	- CrdBrlyReg	edit;exec;view
+	- CrdBrlyLoc	edit;exec;view
+	- CrdBrlyLeg	edit;exec;view
+	- CrdBrlyTtb	edit;exec;view
+	- CrdBrlyFlt	edit;exec;view
+	- CrdBrlySeg	edit;exec;view
+	- CrdBrlyCon	edit;exec;view
+	- CrdBrlyRly	edit;exec;view
+	- ImeIMUser.sref	srefIxBrlyVLocale	srefIxBrlyVUserlevel	Password
+	- brlyuser	enus	adm	asdf1234
+		- ImeIJMUserState.srefIxVState
+		- act
+		- ImeIMPerson.srefIxVSex	Title	Firstname
+		- f	Mrs.	Emily
+			- ImeIJMPersonLastname.Lastname
+			- Johnson
+	- brlyuserdech	dech	adm	asdf1234
+		- ImeIJMUserState.srefIxVState
+		- act
+		- ImeIMPerson.srefIxVSex	Title	Firstname
+		- f	Fr.	Julia
+			- ImeIJMPersonLastname.Lastname
+			- Schmidt

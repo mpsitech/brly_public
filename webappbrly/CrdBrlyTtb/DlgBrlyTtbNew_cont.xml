@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<head>
+		<title>_cont</title>
+		<script>
+			function handleDetPupAliChange() {parent.window.handlePupChange(document,"DetPupAli","");};
+			function handleDetTxfTitKey(evt) {return parent.window.handleTxfKey(document,"DetTxfTit","",evt);};
+			function handleDetTxfTitChange() {parent.window.handleTxfChange(document,"DetTxfTit","");};
+			function handleDetTxfStaKey(evt) {return parent.window.handleTxfKey(document,"DetTxfSta","",evt);};
+			function handleDetTxfStaChange() {parent.window.handleTxfChange(document,"DetTxfSta","");};
+			function handleDetTxfStoKey(evt) {return parent.window.handleTxfKey(document,"DetTxfSto","",evt);};
+			function handleDetTxfStoChange() {parent.window.handleTxfChange(document,"DetTxfSto","");};
+			<!-- IP custScript - INSERT -->
+		</script>
+		<link href="../style/pnlDetail3_2.css" rel="styleSheet" type="text/css"/>
+		<!-- IP custStyle - INSERT -->
+	</head>
+	<body marginwidth="0" marginheight="0">
+		<table cellspacing="0" border="0" cellpadding="0"><form id="form" action="" method="POST" onsubmit="return true" enctype="multipart/form-data">
+			<colgroup>
+				<col width="5"/>
+				<col width="215"/>
+				<col width="5"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="68"/>
+				<col width="2"/>
+				<col width="138"/>
+				<col width="2"/>
+				<col width="1"/>
+				<col width="114"/>
+			</colgroup>
+			<tbody id="tbl">
+				<tr><td colspan="11" height="5"></td></tr>
+				<tr id="trDetAli" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="DetCptAli" class="cpt">DetCptAli</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<select id="DetPupAli" class="pup" size="1" onchange="handleDetPupAliChange()"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trDetTit" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="DetCptTit" class="cpt">DetCptTit</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="DetTxfTit" class="txf" type="text" value="DetTxfTit" onchange="handleDetTxfTitChange()" onkeypress="return handleDetTxfTitKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trDetSta" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="DetCptSta" class="cpt">DetCptSta</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="DetTxfSta" class="txf" type="text" value="DetTxfSta" onchange="handleDetTxfStaChange()" onkeypress="return handleDetTxfStaKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr id="trDetSto" class="show">
+					<td height="25"></td>
+					<td align="right">
+						<span id="DetCptSto" class="cpt">DetCptSto</span>
+					</td>
+					<td></td>
+					<td colspan="5" align="left">
+						<input id="DetTxfSto" class="txf" type="text" value="DetTxfSto" onchange="handleDetTxfStoChange()" onkeypress="return handleDetTxfStoKey(event)"/>
+					</td>
+					<td></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr><td colspan="11" height="4"></td></tr>
+			</tbody>
+		</form></table>
+	</body>
+</html>
+

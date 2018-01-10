@@ -1,0 +1,171 @@
+/**
+  * \file VecBrlyVCall.h
+  * vector VecBrlyVCall (declarations)
+  * \author Alexander Wirthmueller
+  * \date created: 8 Jan 2018
+  * \date modified: 8 Jan 2018
+  */
+
+#ifndef VECBRLYVCALL_H
+#define VECBRLYVCALL_H
+
+#include <sbecore/Xmlio.h>
+
+using namespace Xmlio;
+
+/**
+	* VecBrlyVCall
+	*/
+namespace VecBrlyVCall {
+	const uint CALLBRLYACCESS = 1;
+	const uint CALLBRLYBOOLVALPRESET = 2;
+	const uint CALLBRLYCON_FLTEQ = 3;
+	const uint CALLBRLYCON_TTBEQ = 4;
+	const uint CALLBRLYCONMOD = 5;
+	const uint CALLBRLYCONMOD_COREQ = 6;
+	const uint CALLBRLYCONMOD_FLTEQ = 7;
+	const uint CALLBRLYCONREQPMOD_CONEQ = 8;
+	const uint CALLBRLYCONREQPMOD_EQPEQ = 9;
+	const uint CALLBRLYCONRFLTMOD_CONEQ = 10;
+	const uint CALLBRLYCONRFLTMOD_FLTEQ = 11;
+	const uint CALLBRLYCONRSEGMOD_CONEQ = 12;
+	const uint CALLBRLYCONRSEGMOD_SEGEQ = 13;
+	const uint CALLBRLYCONUPD_REFEQ = 14;
+	const uint CALLBRLYCRDACTIVE = 15;
+	const uint CALLBRLYCRDCLOSE = 16;
+	const uint CALLBRLYCRDOPEN = 17;
+	const uint CALLBRLYCTLAPARMOD_USREQ = 18;
+	const uint CALLBRLYDBLVALPRESET = 19;
+	const uint CALLBRLYDESCR = 20;
+	const uint CALLBRLYDLGCLOSE = 21;
+	const uint CALLBRLYEQP_HKTEQ = 22;
+	const uint CALLBRLYEQP_INSBS = 23;
+	const uint CALLBRLYEQP_OPREQ = 24;
+	const uint CALLBRLYEQP_PTYEQ = 25;
+	const uint CALLBRLYEQPMOD = 26;
+	const uint CALLBRLYEQPMOD_HKTHKUEQ = 27;
+	const uint CALLBRLYEQPMOD_OPREQ = 28;
+	const uint CALLBRLYEQPMOD_PTYEQ = 29;
+	const uint CALLBRLYEQPUPD_REFEQ = 30;
+	const uint CALLBRLYFAFAWPTMOD_FAFEQ = 31;
+	const uint CALLBRLYFAFMOD = 32;
+	const uint CALLBRLYFAFUPD_REFEQ = 33;
+	const uint CALLBRLYFIL_CLUEQ = 34;
+	const uint CALLBRLYFIL_RETEQ = 35;
+	const uint CALLBRLYFIL_REUEQ = 36;
+	const uint CALLBRLYFILMOD = 37;
+	const uint CALLBRLYFILMOD_CLUEQ = 38;
+	const uint CALLBRLYFILMOD_RETREUEQ = 39;
+	const uint CALLBRLYFILUPD_REFEQ = 40;
+	const uint CALLBRLYFLT_EQPEQ = 41;
+	const uint CALLBRLYFLT_FAFEQ = 42;
+	const uint CALLBRLYFLT_TTBEQ = 43;
+	const uint CALLBRLYFLTMOD = 44;
+	const uint CALLBRLYFLTMOD_LEGEQ = 45;
+	const uint CALLBRLYFLTMOD_TTBEQ = 46;
+	const uint CALLBRLYFLTRFLTMOD_DFLEQ = 47;
+	const uint CALLBRLYFLTRFLTMOD_OFLEQ = 48;
+	const uint CALLBRLYFLTRLOCMOD_FLTEQ = 49;
+	const uint CALLBRLYFLTRLOCMOD_LOCEQ = 50;
+	const uint CALLBRLYFLTUPD_REFEQ = 51;
+	const uint CALLBRLYHUSRRUNVMOD_CRDUSREQ = 52;
+	const uint CALLBRLYINTVALPRESET = 53;
+	const uint CALLBRLYIXPRESET = 54;
+	const uint CALLBRLYKLKJKEYMOD_KLSAKEYEQ = 55;
+	const uint CALLBRLYKLSAKEYMOD_KLSEQ = 56;
+	const uint CALLBRLYKLSAKEYMOD_KLSMTBURFEQ = 57;
+	const uint CALLBRLYLEG_CLUEQ = 58;
+	const uint CALLBRLYLEG_INSBS = 59;
+	const uint CALLBRLYLEG_TYPEQ = 60;
+	const uint CALLBRLYLEGMOD = 61;
+	const uint CALLBRLYLEGMOD_BLOEQ = 62;
+	const uint CALLBRLYLEGMOD_CLUEQ = 63;
+	const uint CALLBRLYLEGMOD_ELOEQ = 64;
+	const uint CALLBRLYLEGRLEGMOD_DLGEQ = 65;
+	const uint CALLBRLYLEGRLEGMOD_OLGEQ = 66;
+	const uint CALLBRLYLEGRLOCMOD_LEGEQ = 67;
+	const uint CALLBRLYLEGRLOCMOD_LOCEQ = 68;
+	const uint CALLBRLYLEGUPD_REFEQ = 69;
+	const uint CALLBRLYLOC_EQPEQ = 70;
+	const uint CALLBRLYLOC_INSBS = 71;
+	const uint CALLBRLYLOC_TYPEQ = 72;
+	const uint CALLBRLYLOCMOD = 73;
+	const uint CALLBRLYLOCMOD_REGEQ = 74;
+	const uint CALLBRLYLOCRSEGMOD_LOCEQ = 75;
+	const uint CALLBRLYLOCRSEGMOD_SEGEQ = 76;
+	const uint CALLBRLYLOCUPD_REFEQ = 77;
+	const uint CALLBRLYLOG = 78;
+	const uint CALLBRLYLOGOUT = 79;
+	const uint CALLBRLYMASTCLAIM = 80;
+	const uint CALLBRLYMASTSLVCHG = 81;
+	const uint CALLBRLYMONSTATCHG = 82;
+	const uint CALLBRLYNDEMOD = 83;
+	const uint CALLBRLYNDEMOD_EQPEQ = 84;
+	const uint CALLBRLYNDEMOD_RLYEQ = 85;
+	const uint CALLBRLYNDEMOD_SUPEQ = 86;
+	const uint CALLBRLYNDEUPD_REFEQ = 87;
+	const uint CALLBRLYNODECHG = 88;
+	const uint CALLBRLYOPRMOD = 89;
+	const uint CALLBRLYOPRUPD_REFEQ = 90;
+	const uint CALLBRLYPLOCRLOCMOD_DLOEQ = 91;
+	const uint CALLBRLYPLOCRLOCMOD_OLOEQ = 92;
+	const uint CALLBRLYPRSADETMOD_PRSEQ = 93;
+	const uint CALLBRLYPRSJLNMMOD_PRSEQ = 94;
+	const uint CALLBRLYPRSMOD = 95;
+	const uint CALLBRLYPRSUPD_REFEQ = 96;
+	const uint CALLBRLYPTYMOD = 97;
+	const uint CALLBRLYPTYUPD_REFEQ = 98;
+	const uint CALLBRLYREFPRESET = 99;
+	const uint CALLBRLYREFSPRESET = 100;
+	const uint CALLBRLYREG_INSBS = 101;
+	const uint CALLBRLYREG_ISLEAF = 102;
+	const uint CALLBRLYREG_SUPEQ = 103;
+	const uint CALLBRLYREGADSSMOD_REGEQ = 104;
+	const uint CALLBRLYREGJMOD_REGEQ = 105;
+	const uint CALLBRLYREGJTITMOD_REGEQ = 106;
+	const uint CALLBRLYREGMOD = 107;
+	const uint CALLBRLYREGMOD_SUPEQ = 108;
+	const uint CALLBRLYREGUPD_REFEQ = 109;
+	const uint CALLBRLYRLY_CONEQ = 110;
+	const uint CALLBRLYRLYMOD = 111;
+	const uint CALLBRLYRLYMOD_CONEQ = 112;
+	const uint CALLBRLYRLYUPD_REFEQ = 113;
+	const uint CALLBRLYSCR = 114;
+	const uint CALLBRLYSEG_RETEQ = 115;
+	const uint CALLBRLYSEG_REUEQ = 116;
+	const uint CALLBRLYSEGMOD = 117;
+	const uint CALLBRLYSEGMOD_RETREUEQ = 118;
+	const uint CALLBRLYSEGRSEGMOD_DSGEQ = 119;
+	const uint CALLBRLYSEGRSEGMOD_OSGEQ = 120;
+	const uint CALLBRLYSEGUPD_REFEQ = 121;
+	const uint CALLBRLYSESMOD = 122;
+	const uint CALLBRLYSESMOD_USREQ = 123;
+	const uint CALLBRLYSESUPD_REFEQ = 124;
+	const uint CALLBRLYSREFPRESET = 125;
+	const uint CALLBRLYSTATCHG = 126;
+	const uint CALLBRLYSTGCHG = 127;
+	const uint CALLBRLYSTUBCHG = 128;
+	const uint CALLBRLYTTB_FILEQ = 129;
+	const uint CALLBRLYTTBMOD = 130;
+	const uint CALLBRLYTTBUPD_REFEQ = 131;
+	const uint CALLBRLYTXTVALPRESET = 132;
+	const uint CALLBRLYUSGAACCMOD_USGEQ = 133;
+	const uint CALLBRLYUSGMOD = 134;
+	const uint CALLBRLYUSGUPD_REFEQ = 135;
+	const uint CALLBRLYUSR_PRSEQ = 136;
+	const uint CALLBRLYUSR_USGEQ = 137;
+	const uint CALLBRLYUSRAACCMOD_USREQ = 138;
+	const uint CALLBRLYUSRJSTEMOD_USREQ = 139;
+	const uint CALLBRLYUSRMOD = 140;
+	const uint CALLBRLYUSRRUSGMOD_USGEQ = 141;
+	const uint CALLBRLYUSRRUSGMOD_USREQ = 142;
+	const uint CALLBRLYUSRUPD_REFEQ = 143;
+	const uint CALLBRLYVLOCRLOCMOD_DLOEQ = 144;
+	const uint CALLBRLYVLOCRLOCMOD_OLOEQ = 145;
+
+	uint getIx(const string& sref);
+	string getSref(const uint ix);
+};
+
+#endif
+

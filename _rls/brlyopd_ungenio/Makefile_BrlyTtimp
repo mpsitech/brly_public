@@ -1,0 +1,38 @@
+# file Makefile
+# make file for operation pack BrlyTtimp, release brlyopd_ungenio
+# author Alexander Wirthmueller
+# date created: 8 Jan 2018
+# modified: 8 Jan 2018
+
+include ../Makefile.inc
+
+CPP = g++
+CPPFLAGS = -std=c++11 -g -Wall -Os -pthread
+STATLIB = ar
+STATLIBFLAGS = rcs
+
+INCPATH = -I$(SRCROOT)/dbsbrly -I$(SRCROOT)/brlyopd/VecBrly -I$(SRCROOT)/brlyopd
+INCPATH += -I/Library/PostgreSQL/9.6/include -I/usr/include -I/usr/local/include -I/usr/local/include/curl -I/usr/local/include/libxml2 -I/usr/local/mysql/include
+
+OBJS = BrlyTtimp_blks.o BrlyTtimp.o
+OBJS += BrlyTtimpRawstar.o
+
+LIB = libbrlyttimp
+
+.SUFFIXES:	.cpp
+
+.cpp.o :
+	$(CPP) $(CPPFLAGS) $(INCPATH) -o $@ -c $<
+
+all:	$(LIB)
+
+$(LIB):	$(OBJS)
+	$(STATLIB) $(STATLIBFLAGS) $(LIB).a $(OBJS)
+	rm -f *.o
+
+install:
+	mv $(LIB).a $(LIBROOT)/brlyopd/
+
+clean:
+	rm -f *.o
+
